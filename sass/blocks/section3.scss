@@ -1,0 +1,43 @@
+.section_three {
+  margin-top: 110px;
+}
+.section3_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 88px;
+    position: relative;
+    &::before {
+      content: "";
+      width: 108px;
+      height: 0px;
+      position: absolute;
+      top: 100px;
+      left: -50px;
+      border: 2px solid #d3b47f;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    width: 470px;
+  }
+
+  img {
+    margin-left: 50px;
+  }
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    img {
+      margin-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.sfeerfoto {
+  margin-bottom: 100px;
+}
+
+.sfeerfoto_top {
+  background-color: #3a4574;
+  height: 550px;
+  padding-top: 50px;
+  color: white;
+
+  h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 88px;
+    margin: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    width: 569px;
+    margin: 0;
+  }
+}
+
+.sfeerfoto_top_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    margin-left: 80px;
+  }
+}
+
+.sfeerfoto_bottom {
+  display: flex;
+  overflow: hidden;
+  margin-top: -330px;
+  justify-content: center;
+
+  img {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
